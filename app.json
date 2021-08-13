@@ -29,20 +29,20 @@
             "value": ""
         },
         "REDIS_URI": {
-            "description": "Redis endpoint URL, from redislabs.com",
+            "description": "Redis endpoint URL, from redislabs.com(needed)",
             "value": ""
         },
         "REDIS_PASSWORD": {
-            "description": "Redis endpoint password, from redislabs.com",
+            "description": "Redis endpoint password, from redislabs.com(needed)",
             "value": ""
         },
         "HEROKU_API": {
-            "description": "Heroku API token. Needed if deploying on heroku ONLY.",
+            "description": "Heroku API token. Needed if deploying on heroku ONLY.(not required if not deploying in heroku)",
             "value": "",
             "required": false
         },
         "HEROKU_APP_NAME": {
-            "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
+            "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.(heroku app name needed if deploying to heroku)",
             "value": "",
             "required": false
         }
